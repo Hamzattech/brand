@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    font-family: "Varela Round";
+}
+.navbar-nav > .nav-item > .nav-link{
+    border-radius: 5px;
+    margin: .5rem;
+    color: white;
+    background-color: navy;
+}
+.navbar-nav > .nav-item > .nav-link:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: white;;
+    color: navy;
+
+}
+.icon-container{
+    text-align: center;
+}
+.icon-container > a > i{
+    color: navy;
+}
+/* .service{
+    width: 9rem;
+} */
+#wrapper{
+    justify-content: center;
+    text-align: center;
+}
+#pageheader{
+    font-size:3.5rem;
+    color: navy;
+}
+#explore{
+    background-color: navy;
+    color: white;
+}
+.jumbotron{
+    background-color: #ABE2F0;
+}
+#explore:hover{
+    transition:all 0.5s ease-in-out;
+    background-color: white;
+    color: navy;
+}
+aside,#secondRow{
+    color: navy;
+}
+#first-row{
+    margin-top: 2rem;
+}
+body{
+    /* background-image: url(images/orange.jpg); */
+    background-color: #caf0f8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn{
+    background-color: white;
+    color: navy;
+    font-weight: 500;
+}
+.btn:hover{
+    color: navy;
+}
+.card-footer{
+    color: orange;
+    background-color: navy;
+}
+h2,h3,h4{
+    color: navy;
+}
+h1{
+    color:navy;
+    margin-top: 1rem;
+}
+.container > .jumbotron > .page-header{
+    color: white;
+}
+.container > .page-header{
+    margin-bottom: 2rem;
+}
+.navbar-toggler{
+border: 2px solid navy;
+background-color: white;
+}
+#new-toggler{
+    color: navy;
+}
+#footer{
+    
+    font-weight: 500;
+}
+
+
+@media (max-width:792px){
+    .navbar-nav > .nav-item > .nav-link{
+        border: none;
+        border-radius: 5px;
+        margin: .5rem;
+        color: navy;
+        width: 6rem;
+        background-color: transparent;
+    }
+    .navbar-nav > .nav-item > .nav-link:hover{
+        border: none;
+        border-radius: 5px;
+        margin: .5rem;
+        color: blue;
+        width: 6rem;
+        background-color: transparent;
+
+    }
+    .jumbotron{
+        background-color: transparent;
+    }
+}
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --primary-color:orange;
+    --secondary-color:navy;
+    --background:rgb(104, 95, 95);
+    --header-font:2rem;
+    --paragraph-font:1rem;
+    --font-weight-normal:1rem;
+    --font-weight-medium:2rem;
+    --font-weight-large:3rem;
+    --transition:all 0.5s ease-in-out;
+}
+body{
+    background:url('../tecspot/images/backgroundImage.jpg');
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    
+}
+.nav__items,.nav__links{
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin-right: 2rem;
+    color: var(--primary-color);
+    font-weight: var(--font-weight-medium);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+li:hover{
+    color: var(--secondary-color);
+    background-color: rgb(235, 223, 223);
+    transition: var(--transition);
+}
+.burger{
+    position: absolute;
+    z-index: 1;
+    right: 1rem;
+    top: 1rem;
+    height: 20px;
+    width: 28px;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top:1rem;
+}
+.burger > .burger__item{
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    width: 28px;
+    height: 2px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+}
+.burger__item::before{
+    content: '';
+    width: 28px;
+    height: 2px;
+    border-radius: 15px;
+    position: absolute;
+    top: -8px;
+    background-color: var(--primary-color);
+    
+}
+.burger__item::after{
+    content: '';
+    width: 20px;
+    height: 2px;
+    border-radius: 15px;
+    position: absolute;
+    top: 8px;
+    background-color: var(--primary-color);
+    
+}
+main{
+    display: flex;
+    padding: 1rem;
+    line-height: 1.5;
+}
+h1{
+    font-size: var(--header-font);
+    font-weight: var(--font-weight-large);
+}
+p{
+    font-size: var(--paragraph-font);
+}
+main > .about{
+    width: 50%;
+}
+.footer{
+    position: fixed;
+    bottom: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
