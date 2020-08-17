@@ -38,6 +38,7 @@
 }
 .jumbotron{
     background-color: #ABE2F0;
+    margin-top: 4rem;
 }
 #explore:hover{
     transition:all 0.5s ease-in-out;
@@ -114,6 +115,7 @@ background-color: white;
     }
     .jumbotron{
         background-color: transparent;
+        margin-top:1rem;
     }
 }
 
