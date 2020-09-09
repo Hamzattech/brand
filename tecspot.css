@@ -27,7 +27,7 @@
     background-color: var(--whiteColor);
 }
 .col > #wrapper > .sm-btn:hover{
-    background-color: transparent;
+    background-color: #d3d3d3;
 }
 .icon-container{
     text-align: center;
@@ -73,7 +73,7 @@ aside,#secondRow{
 }
 body{
     /* background-image: url(images/orange.jpg); */
-    background-color: #bcd4e6;
+    background-color: #d3d3d3;
     font-size: 1rem;
 }
 .btn{
@@ -107,6 +107,11 @@ background-color: var(--whiteColor);
 }
 #new-toggler{
     color:  var(--navyColor);
+}
+#image{
+    width:100%;
+    height: auto;
+    border-radius: 5px;
 }
 #footer{
     
