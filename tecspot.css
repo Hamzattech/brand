@@ -1,25 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 *{
-    font-family: "Varela Round";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+:root{
+    --whiteColor:white;
+    --navyColor:navy;
 }
 .navbar-nav > .nav-item > .nav-link{
     border-radius: 5px;
     margin: .5rem;
-    color: white;
-    background-color: navy;
+    color:var(--whiteColor);
+    background-color:var(--navyColor);
 }
 .navbar-nav > .nav-item > .nav-link:hover{
     transition: all 0.5s ease-in-out;
-    background-color: white;;
-    color: navy;
+    background-color: var(--whiteColor);
+    color: var(--navyColor);
 
+}
+.col > #wrapper > .sm-btn{
+    background-color: var(--whiteColor);
+}
+.col > #wrapper > .sm-btn:hover{
+    background-color: transparent;
 }
 .icon-container{
     text-align: center;
 }
 .icon-container > a > i{
-    color: navy;
+    color: var(--navyColor);
+}
+#sum{
+    width: 60%;
+    color: var(--navyColor);
+}
+.services{
+    box-shadow: 0 0 3px  var(--navyColor);
 }
 /* .service{
     width: 9rem;
@@ -29,78 +50,106 @@
     text-align: center;
 }
 #pageheader{
-    font-size:3.5rem;
-    color: navy;
+    font-size:3rem;
+    color:  var(--navyColor);
 }
 #explore{
-    background-color: navy;
-    color: white;
+    background-color:  var(--navyColor);
+    color: var(--whiteColor);
 }
-.jumbotron{
-    background-color: #ABE2F0;
+.jumbotron-fluid{
     margin-top: 4rem;
 }
 #explore:hover{
     transition:all 0.5s ease-in-out;
-    background-color: white;
-    color: navy;
+    background-color: var(--whiteColor);
+    color:  var(--navyColor);
 }
 aside,#secondRow{
-    color: navy;
+    color:  var(--navyColor);
 }
 #first-row{
     margin-top: 2rem;
 }
 body{
     /* background-image: url(images/orange.jpg); */
-    background-color: #caf0f8;
+    background-color: #bcd4e6;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 1rem;
 }
 .btn{
-    background-color: white;
-    color: navy;
+    background-color: var(--whiteColor);
+    color:  var(--navyColor);
     font-weight: 500;
 }
 .btn:hover{
-    color: navy;
+    color:  var(--navyColor);
 }
 .card-footer{
     color: orange;
-    background-color: navy;
+    background-color:  var(--navyColor);
 }
 h2,h3,h4{
-    color: navy;
+    color:  var(--navyColor);
 }
 h1{
-    color:navy;
+    color: var(--navyColor);
     margin-top: 1rem;
 }
 .container > .jumbotron > .page-header{
-    color: white;
+    color: var(--whiteColor);
 }
 .container > .page-header{
     margin-bottom: 2rem;
 }
 .navbar-toggler{
-border: 2px solid navy;
-background-color: white;
+border: 2px solid  var(--navyColor);
+background-color: var(--whiteColor);
 }
 #new-toggler{
-    color: navy;
+    color:  var(--navyColor);
 }
 #footer{
     
     font-weight: 500;
 }
+.upArrow{
+    position: fixed;
+    right:1rem;
+    bottom: 5rem;
+    height: 0;
+    overflow: hidden;
+}
+.showupArrow{
+    position: fixed;
+    right:1rem;
+    bottom: 5rem;
+    height: 38px;
+    overflow: visible;
+}
+.navbar-nav > .nav-item > .nav-link{
+    border-top-left-radius:0.875rem;
+}
+.navbar-nav > .nav-item > .nav-link{
+    border-top-right-radius:0.875rem;
+}
+@media screen and (max-width:900px){
+    #firstRow{
+        display: grid;
+    }
+    #pageheader{
+        font-size: 2rem;
+    }
+}
 
 
-@media (max-width:792px){
+@media screen and (max-width:600px){
     .navbar-nav > .nav-item > .nav-link{
         border: none;
         border-radius: 5px;
         margin: .5rem;
-        color: navy;
+        color:  var(--navyColor);
         width: 6rem;
         background-color: transparent;
     }
@@ -116,6 +165,13 @@ background-color: white;
     .jumbotron{
         background-color: transparent;
         margin-top:1rem;
+    }
+    #pageheader{
+        font-size: 2rem;
+    }
+    #image{
+        width: 50px;
+        height: 50px;
     }
 }
 
