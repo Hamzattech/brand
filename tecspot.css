@@ -137,9 +137,15 @@ background-color: var(--whiteColor);
 @media screen and (max-width:900px){
     #firstRow{
         display: grid;
+        margin: auto;
+
     }
     #pageheader{
         font-size: 2rem;
+    }
+    #sum{
+        width: 80%;
+        color: var(--navyColor);
     }
 }
 
@@ -172,6 +178,22 @@ background-color: var(--whiteColor);
     #image{
         width: 50px;
         height: 50px;
+    }
+    #sum{
+        width: 100%;
+        color: var(--navyColor);
+    }
+    #firstRow{
+        display: grid;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:606px){
+    #firstRow{
+        display: grid;
+        margin: auto;
+
     }
 }
 
