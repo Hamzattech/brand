@@ -74,8 +74,6 @@ aside,#secondRow{
 body{
     /* background-image: url(images/orange.jpg); */
     background-color: #bcd4e6;
-    background-size: cover;
-    background-repeat: no-repeat;
     font-size: 1rem;
 }
 .btn{
@@ -134,10 +132,11 @@ background-color: var(--whiteColor);
 .navbar-nav > .nav-item > .nav-link{
     border-top-right-radius:0.875rem;
 }
-@media screen and (max-width:900px){
+ @media screen and (max-width:900px){
     #firstRow{
-        display: grid;
-        margin: auto;
+        display: flex;
+        
+
 
     }
     #pageheader{
@@ -150,7 +149,7 @@ background-color: var(--whiteColor);
 }
 
 
-@media screen and (max-width:600px){
+/*@media screen and (max-width:600px){
     .navbar-nav > .nav-item > .nav-link{
         border: none;
         border-radius: 5px;
@@ -186,16 +185,12 @@ background-color: var(--whiteColor);
     #firstRow{
         display: grid;
         margin: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
-}
+} */
 
-@media screen and (max-width:606px){
-    #firstRow{
-        display: grid;
-        margin: auto;
-
-    }
-}
 
 
 /* *{
