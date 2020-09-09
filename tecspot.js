@@ -1,7 +1,23 @@
-const navbarToggler = document.getElementsByClassName('navbar-toggler-icon')[0]
-const navItems = document.getElementsByClassName('nav-item')[0]
+const date = document.querySelector(".footer-text");
 
-navbarToggler.addEventListener('click', ()=>{
-    navItems.classList.toggle('active');
-    
-});
+date.innerHTML = new Date().getFullYear();
+const topArrow = document.querySelector(".upArrow");
+const navBar = document.querySelector(".navbar");
+const topBtn = document.querySelector(".topbtn");
+
+
+topBtn.addEventListener("click",()=>{
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+})
+window.addEventListener("scroll",()=>{
+    const navBarHeight = navBar.getBoundingClientRect().height; 
+    const scrollHeight = window.pageYOffset;
+    if(scrollHeight > navBarHeight){
+        topArrow.classList.add("showupArrow")
+    }
+    else{
+        topArrow.classList.remove("showupArrow")
+    }
+})
+

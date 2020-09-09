@@ -1,5 +1,9 @@
+body{
+    background-color: #caf0f8;
+}
+
 .navbar{
-    background-color: navy;
+    background-color: transparent;
 }
 .form-group{
     border: 1px solid navy ;
@@ -10,20 +14,21 @@
     
 }
 .navbar-nav > .nav-item > .nav-link{
-    border: .5px solid orange;
+    background-color: navy;
+    border: .5px solid white;
     border-radius: 5px;
     margin: .5rem;
-    color: orange;
+    color: white;
 }
 .navbar-nav > .nav-item > .nav-link:hover{
     transition: all 0.5s ease-in-out;
-    background-color: orange;
+    background-color: white;
     color: navy;
-    border: .5px solid navy;
+    border: .5px solid white;
 
 }
 .card-footer{
-    color: orange;
+    color: white;
     background-color: navy;
 }
 .row > .col > .page-header{
@@ -45,7 +50,6 @@
         border: none;
         border-radius: 5px;
         margin: .5rem;
-        color: orange;
         width: 6rem;
     }
 }
