@@ -29,6 +29,11 @@
 .col > #wrapper > .sm-btn:hover{
     background-color: #d3d3d3;
 }
+#imagee{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .icon-container{
     text-align: center;
 }
@@ -108,10 +113,13 @@ background-color: var(--whiteColor);
 #new-toggler{
     color:  var(--navyColor);
 }
-#image{
+#image,.imageShowcase{
     width:100%;
     height: auto;
     border-radius: 5px;
+}
+.imageShowcaseCol{
+    margin-bottom: 2rem;
 }
 #footer{
     
