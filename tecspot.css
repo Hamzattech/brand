@@ -13,6 +13,9 @@
     margin: 0;
     background-color: navy;
 }
+.container > .row > .firstCol{
+    box-shadow: 0 0 10px 1px black;
+}
 
 :root{
     --whiteColor:white;
@@ -45,6 +48,10 @@
 .icon-container{
     text-align: center;
 }
+.removeDIv{
+    height:  56px;
+    overflow: hidden;
+}
 .icon-container > a > i{
     color: var(--navyColor);
 }
@@ -54,6 +61,10 @@
 }
 .services{
     box-shadow: 0 0 3px  var(--navyColor);
+}
+.why{
+    width: 60%;
+    text-align: justify;
 }
 /* .service{
     width: 9rem;
@@ -167,6 +178,10 @@ background-color: var(--whiteColor);
         background-color: transparent;
         color: wheat;
     
+    }
+    .why{
+        width: 60%;
+        text-align: justify;
     }
     #firstRow{
         display: flex;

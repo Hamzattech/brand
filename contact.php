@@ -20,9 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto"  >
             <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item " ><a href="index.html" class="nav-link navlink">About us</a></li>
-            <li class="nav-item "><a href="index.html" class="nav-link navlink ">Our services</a></li>
-            <li class="nav-item "><a href="index.html" class="nav-link navlink">Projects</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link navlink">Contact us</a></li>
         </ul>
         
         </div>
@@ -35,11 +33,11 @@
            <p>kindly fill out the form below and we will get back to you as soon as possible</p>
             <h1 class="page-header">Enter your details</h1>
             <label for="Name">Your name</label>
-            <input type="text" class="form-control " placeholder="name">
+            <input type="text" class="form-control " placeholder="name" required>
             <label for="email">Your email</label>
-            <input type="email" class="form-control" placeholder="email">
+            <input type="email" class="form-control" placeholder="email" required>
             <label for="text-area">Message</label>
-            <textarea name="" id="" cols="20" rows="10" class="form-control" placeholder="enter your message..."></textarea>
+            <textarea name="" id="" cols="20" rows="10" class="form-control" placeholder="enter your message..." required></textarea>
        <br>
             <button class="btn btn-lg   " id="submit">Submit</button>
         </form>
@@ -49,19 +47,19 @@
         <div class="row">
             <div class="col col-md-4 col-sm-12 col-12">
                 <h4 class="page-header">Address</h4>
-                <p style="color: #1ebdff;">No 23 fashinro street maza-maza Amuwo off Zenith bank Nigeria Plc Lagos.</p>
-                <p style="color: #1ebdff;">No 7 ebun-olojede street maza-maza Amuwo Lagos.</p>
+                <p style="color: #1D2951;">No 23 fashinro street maza-maza Amuwo off Zenith bank Nigeria Plc Lagos.</p>
+                <p style="color: #1D2951;">No 7 ebun-olojede street maza-maza Amuwo Lagos.</p>
             </div>
-            <div class="col col-md-4 col-sm-12 col-12" style="color: #1ebdff;">
+            <div class="col col-md-4 col-sm-12 col-12">
                 <h4 class="page-header">Telephone</h4>
-                <p style="color: #1ebdff;">08093167861</p>
-                <p style="color: #1ebdff;">08117677345</p>
-                <p style="color: #1ebdff;">09048917119</p>
+                <p style="color: #1D2951;">08093167861</p>
+                <p style="color: #1D2951;">08117677345</p>
+                <p style="color: #1D2951;">09048917119</p>
 
             </div>
             <div class="col col-md-4 col-sm-12 col-12">
                 <h4 class="page-header">Email</h4>
-                <a href="tecspottecspot@gmail.com">tecspottecspot@gmail.com</a>
+                <a href="tecspottecspot@gmail.com" style="color: #1D2951;">tecspottecspot@gmail.com</a>
             </div>
             
         </div>

@@ -19,14 +19,14 @@
                       <span class="navbar-toggler-icon">
                       </span>
                   </button>
-
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+                  <div class="collapse navbar-collapse navCollapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto"  >
                       <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                      <li class="nav-item" ><a href="about.html" class="nav-link navlink">About us</a></li>
+                      <!-- <li class="nav-item" ><a href="about.html" class="nav-link navlink">About us</a></li> -->
                       <li class="nav-item"><a href="#ourservices" class="nav-link navlink ">Our services</a></li>
                       <li class="nav-item"><a href="#projects" class="nav-link navlink">Projects</a></li>
-                      <li class="nav-item"><a href="contact.html" class="nav-link navlink">Contact us</a></li>
+                      <li class="nav-item"><a href="contact.php" class="nav-link navlink">Contact us</a></li>
                   </ul>
 
                   </div>
@@ -59,9 +59,7 @@
               </div>
                   </section>
                 </div>
-                   
-
-                    <div class="container">
+                 <div class="container">
                       <div class="jumbotron" style="background-color: transparent;">
                         <h3>Get your Website ready in an amazing fashion</h3>
                         <p class="p-3 m-auto lead" style="color: black;">At Tescpot we always strive to give our customers the best services that keep us live in their lives forever. we also listen to customers
@@ -179,7 +177,23 @@
     </div> -->
  
       <div class="container">
-          <h1 class="page-header" id="projects">Projects</h1>
+          <h1 class="page-header" id="projects">Why Tecspot?</h1>
+          <div class="row">
+            <div class="col col-12 col-md-12 col-lg-12 why">
+              <h5 style="color: #1D2951;">Experience</h5>
+              <p>We have 4 years Experience building great websites for customers</p>
+            </div>
+            <div class="col col-12 col-md-12 col-lg-12 why">
+              <h5 style="color: #1D2951;">Comformity</h5>
+              <p>We comform to the modern style of website development that customers want</p>
+            </div>
+            <div class="col col-12 col-md-12 col-lg-12 why">
+              <h5 class="" style="color: #1D2951;">Updated Technology</h5>
+              <p >We build our websites by leveraging the best tools depending on your company's size.</p>
+            </div>
+          </div>
+
+
           <!-- <div class="row" id="secondRow">
               <div class="col-md-4">
                   <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi in soluta numquam culpa dolor fugiat sit vel ducimus placeat voluptatum eum saepe nostrum explicabo, quia illo fugit quis. Voluptatem, ab.</p>
