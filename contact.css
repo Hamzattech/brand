@@ -6,7 +6,7 @@ body{
     background-color: transparent;
 }
 .form-group{
-    border: .5px solid navy ;
+    box-shadow: 0 0 15px .5px rgb(192, 190, 190) ;
     border-radius: 5px;
     padding: 1rem;
     color: navy;
@@ -26,6 +26,9 @@ body{
     color: navy;
     border: .5px solid white;
 
+}
+.error{
+    color: red;
 }
 .card-footer{
     color: white;
@@ -57,5 +60,14 @@ body{
         border-radius: 5px;
         margin: .5rem;
         width: 6rem;
+    }
+    .form-group{
+        box-shadow: 0 0 15px .5px rgb(192, 190, 190) ;
+        border-radius: 5px;
+        padding: 1rem;
+        color: navy;
+        margin: auto;
+        width: 70%;
+        
     }
 }
