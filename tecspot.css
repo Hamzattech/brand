@@ -64,7 +64,6 @@
 }
 .why{
     width: 60%;
-    text-align: justify;
 }
 /* .service{
     width: 9rem;
@@ -180,8 +179,7 @@ background-color: var(--whiteColor);
     
     }
     .why{
-        width: 60%;
-        text-align: justify;
+        width: 100%;
     }
     #firstRow{
         display: flex;
