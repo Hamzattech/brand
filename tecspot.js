@@ -27,11 +27,15 @@ topBtn.addEventListener("click",()=>{
 window.addEventListener("scroll",()=>{
     const navBarHeight = navBar.getBoundingClientRect().height; 
     const scrollHeight = window.pageYOffset;
-    if(scrollHeight > navBarHeight){
+    if(scrollHeight > navBarHeight+200){
         topArrow.classList.add("showupArrow")
     }
     else{
         topArrow.classList.remove("showupArrow")
     }
+})
+
+$(".upArrow").on("click",function(){
+
 })
 
